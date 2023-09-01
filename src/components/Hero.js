@@ -35,9 +35,7 @@ const Hero = () => {
     hash: useContractWriteData?.hash,
   });
 
-  console.log("useWaitForTransactionData : ", useWaitForTransactionData);
-  console.log("useContractWriteData : ", useContractWriteData);
-  console.log("useContractReadData : ", useContractReadData);
+  console.log("write",write);
 
   // const { write } = useContractWrite({
   //   address: ContractAddress,
